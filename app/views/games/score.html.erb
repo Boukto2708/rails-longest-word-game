@@ -1,2 +1,12 @@
-<h1>Games#score</h1>
-<p>Find me in app/views/games/score.html.erb</p>
+<h1>Result</h1>
+
+<% if @greg %>
+  <% if @maxime %>
+    <p> YOU WONNNN </p>
+  <% else %>
+    <p>it's not a english word</p>
+  <% end %>
+<% else %>
+  <p>letter not include!!!</p>
+<% end %>
+
